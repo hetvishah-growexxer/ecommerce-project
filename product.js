@@ -6,7 +6,8 @@ class Product {
 }
 
 getPrice() {
-    return this.price;
+    const tax = 0.18; // 18% tax
+    return this.price + (this.price * tax);
     }
 }
 
