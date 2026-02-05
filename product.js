@@ -6,7 +6,7 @@ class Product {
 }
 
 getPrice() {
-    return this.price;
+    return this.price - (this.price * this.discount / 100);    
     }
 }
 
